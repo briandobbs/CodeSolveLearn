@@ -4,4 +4,5 @@ module.exports = {
   important: true,
   plugins: [require("daisyui")],
   daisyui: {},
+  content: ["./index.html", "./src/**/*.{,ts,tsx,js}"],
 };
