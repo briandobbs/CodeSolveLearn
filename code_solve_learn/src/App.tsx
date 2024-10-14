@@ -13,7 +13,7 @@ function App() {
         <Header />
 
         {/* Main content area */}
-        <main className="tw-flex-grow tw-bg-gray-100 tw-py-8">
+        <main className="tw-flex-grow tw-bg-gray-100 tw-text-gray-800 tw-py-8">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
