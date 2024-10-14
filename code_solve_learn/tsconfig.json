@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Use the latest ECMAScript features
+    "useDefineForClassFields": true, // New behavior for class fields
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Include DOM and ES features
+    "module": "ESNext", // Use ESNext module system
+    "moduleResolution": "Node", // Use Node-style resolution
+    "strict": true, // Enable strict type-checking
+    "jsx": "react-jsx", // JSX support for React
+    "esModuleInterop": true, // Enable compatibility with CommonJS modules
+    "skipLibCheck": true, // Skip type checks on third-party libraries
+    "forceConsistentCasingInFileNames": true // Enforce consistent file naming
+  },
+  "include": ["src"], // Limit the scope to the `src` directory
+  "exclude": ["node_modules"]
+}
