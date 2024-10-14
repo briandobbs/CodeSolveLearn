@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="">
+    <div className="tw-flex tw-h-screen tw-justify-center">
       <div className="tw-flex tw-flex-col tw-justify-between">
         <Header />
 
