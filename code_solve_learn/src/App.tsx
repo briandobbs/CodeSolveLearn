@@ -4,6 +4,14 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
+import ArticlesGrid from "./components/ArticlesGrid";
+import { Article } from "./types/article";
+
+const articles: Article[] = [
+  { id: 1, title: "First Article", description: "This is the first article" },
+  { id: 2, title: "Second Article", description: "This is the second article" },
+  { id: 3, title: "Third Article", description: "This is the third article" },
+];
 
 function App() {
   return (
@@ -17,6 +25,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route
+              path="/articles"
+              element={<ArticlesGrid articles={articles} />}
+            />
           </Routes>
         </main>
 
